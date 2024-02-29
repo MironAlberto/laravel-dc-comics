@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('page-title', 'Chi siamo')
 
@@ -6,4 +6,4 @@
 <h1>
     About | Laravel Start 1
 </h1>
-@endsection
+@endsection --}}

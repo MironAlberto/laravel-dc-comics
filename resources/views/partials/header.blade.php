@@ -1,4 +1,4 @@
-@php
+{{-- @php
     $links = [
         [
             'url' => '/',
@@ -36,4 +36,10 @@
             @endforeach
         </ul>
     </nav>
+</header> --}}
+
+<header>
+    <h1>
+        Ciao
+    </h1>
 </header>
