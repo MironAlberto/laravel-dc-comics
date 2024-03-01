@@ -50,9 +50,14 @@
                                     {{ $comic->sale_date }}
                                 </strong>
                             </p>
-                            <div>
-                                <a href="{{ route('comics.show', ['comic' => $comic->id]) }}" class="btn btn-danger fw-bolder">
+                            <div class="mb-3">
+                                <a href="{{ route('comics.show', ['comic' => $comic->id]) }}" class="btn btn-light fw-bolder w-100">
                                     More Details
+                                </a>
+                            </div>
+                            <div>
+                                <a href="{{ route('comics.edit', ['comic' => $comic->id]) }}" class="btn btn-warning fw-bolder text-white w-100">
+                                    Update
                                 </a>
                             </div>
                         </div> 
