@@ -18,15 +18,10 @@ use App\Http\Controllers\Admin\ComicController;
 Route::get('/', function () {
     
 
-    return view('welcome', [
-        
-    ]);
+    return view('welcome');
+    /* return redirect()->route('comics.index'); */
     
 });
-
-/* Route::get('/chi-siamo', function () {
-    return view('subpages.about');
-}); */
 
 Route::resource('comics', ComicController::class);
 

@@ -34,7 +34,7 @@
 
             <div class="mb-3">
                 <label for="price" class="form-label">Price <span class="text-danger">*</span></label>
-                <input type="text" class="form-control" id="price" name="price" placeholder="Add your Comic Price..." min="3" max="100" required>
+                <input type="number" class="form-control" id="price" name="price" placeholder="Add your Comic Price..." step="0.01" min="3" max="100" required>
             </div>
 
             <div class="mb-3">
@@ -44,7 +44,7 @@
 
             <div class="mb-3">
                 <label for="date" class="form-label">Date <span class="text-danger">*</span></label>
-                <input type="text" class="form-control" id="date" name="sale_date" placeholder="Add your Comic Date..." required>
+                <input type="date" class="form-control" id="date" name="sale_date" placeholder="Add your Comic Date..." required>
             </div>
 
             <div class="mb-3">
