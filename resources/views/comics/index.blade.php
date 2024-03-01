@@ -56,7 +56,7 @@
                                 </a>
                             </div>
                             <div>
-                                <a href="{{ route('comics.edit', ['comic' => $comic->id]) }}" class="btn btn-warning fw-bolder text-white w-100">
+                                <a href="{{ route('comics.edit', ['comic' => $comic->id]) }}" class="btn btn-secondary fw-bolder text-white w-100">
                                     Update
                                 </a>
                             </div>
